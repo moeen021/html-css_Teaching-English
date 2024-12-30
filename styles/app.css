@@ -34,7 +34,7 @@
     --black1: #0C0C0C;
     --black2: #1D1D1D;
     --black3: #282828;
-    --gray1: #4F4F4F;
+    --gray1: #4F4F4F; 
     --gray2: #404040;
     --gray3: #BDBDBD;
     --gray4: #DFDFDF;
@@ -50,7 +50,7 @@ html {
 body {
     line-height: 1.6;
     font-size: 1.6rem;
-    font-family: "Poppins";
+    font-family: "Poppins_Bold";
     background-color: var(--white);
 }
 
@@ -60,10 +60,9 @@ body {
     padding-left: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
 }
 .header{
-
 }
 .nav{
     display: flex;
@@ -90,11 +89,11 @@ body {
     gap: 3rem;
 }
 .menue_list-home{
-    color: var(--primary);
+    color: #2563EB;
 }
 .nav_link{
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 .nav_links{
 
@@ -106,37 +105,318 @@ body {
     align-items: center;
     width: 100%;
     height: 4rem;
+    font-family: "Poppins-SemiBold";
 }
 .off_speakup{
     text-decoration: none;
 }
 .off_speakup-premium{
-    font-family:"poppins";
+    font-family:"Poppins_Regular";
     font-size: 1.32rem;
     color: var(--Secondary);
 }
 .header_img{
     display: flex;
-    padding: 5rem 12rem;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(to right,#2563EB,#4FB3FF);
 }
+.text_header{
+    padding-left: 10rem;
+}
+.header-imageg{
+}
 .Studying_Online{
-    font-family: "poppins";
-    font-size: 4.5rem;
-    margin-top: 10rem;
+    font-family: "Poppins-SemiBold";
+    font-size: 4rem;
+    color: var(--white);
+    max-width: 47rem;
 }
 .SpeakUp{
-    font-family: "poppins";
+    font-family: "Poppins_Regular";
     font-size: 2.2rem;
-    
+    color: var(--white);
+    max-width: 55rem;
 }
 .lets_start{
     border-radius: 0.5rem;
     background-color: var(--Secondary);
     border-color: var(--Secondary);
     border: var(--Secondary);
-    font-family: "poppins";
+    font-family: "Poppins_Regular";
     padding: 1.5rem;
     margin-top: 1rem;
     color: var(--white);
+}
+.Introduction_of-courses{
+    display: flex;
+    align-items: center;
+    gap: 5rem;    
+}
+.Course_Introduction-left {
+    flex: 1;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+.learn_online{
+    border: 0.1rem solid #BDBDBD;
+    border-radius: 1rem;
+    margin-top: 26rem;
+    padding-top: 4rem;
+    padding-bottom: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 0.5rem #BDBDBD;
+}
+.learn_online-title{
+    font-family: "Poppins_Bold";
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    max-width: 42rem;
+    color: #2563EB;
+}
+.learn_online-caption{
+    color: var(--gray1);
+    font-size: 1.8rem;
+    max-width: 54rem;
+    font-family: "Poppins_Regular";
+}
+.img_intern{
+    margin-top: 35rem;
+}
+.Together_inspire-title{
+    font-family: "Poppins_Bold";
+    font-size: 3.5rem;
+    margin-top: 11rem;
+    color: var(--black2);
+}
+.Together_inspire-caption{
+    font-family: "Poppins_Regular";
+    font-size: 1.8rem;
+    max-width: 54rem;
+    color: var(--gray2);
+}
+.Course_Introduction-right{
+    flex: 1;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.img_intern0{
+    margin-top: 8rem;
+}
+.Speak_faster-title{
+    font-family: "Poppins_Bold";
+    font-size: 3.5rem;
+    max-width: 45rem;
+    margin-top: 3rem;
+    color: var(--black2);
+}
+.Speak_faster-caption{
+    color: var(--gray1);
+    font-size: 1.8rem;
+    max-width: 52.5rem;
+    font-family: "Poppins_Regular";
+}
+.fun_fact{
+    border: 0.1rem solid #BDBDBD;
+    box-shadow: 0 0 0.5rem #BDBDBD;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.fun_fact-title{
+    font-family: "Poppins-SemiBold" ;
+    font-size: 1.5rem;
+}
+.fun_fact-caption{
+    font-family: "Poppins_Regular";
+    color: var(--gray2);
+    font-size: 1.4rem;
+    max-width: 55rem;
+}
+.learn_class-title{
+    margin-top: 8rem;
+    font-family: "Poppins_Bold";
+    font-size: 3.5rem;
+    color: var(--black2);
+}
+.learn_class-caption{
+    font-family: "Poppins_Regular";
+    font-size: 1.7rem;
+    max-width: 41.8rem;
+    margin-top: 2rem;
+    color: var(--gray2);
+}
+.img_intern1{
+    margin-top: 31rem;
+}
+.Popular_Course{
+    font-family: "Poppins_Bold";
+    color: var(--shade2);
+    font-size: 3rem;
+}
+.course-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.course-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: transform 0.4s;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+.course-card h6 {
+    font-size: 1.8rem;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.course-card p {
+    color: #777;
+    font-size: 1.4rem;
+    margin: 0 0 10px;
+}
+
+.start-course {
+    background: #377dff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.start-course:hover {
+    background: #0056b3;
+}
+
+.rating {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: #ffcd3c;
+    color: #333;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.all_courses{
+    padding: 0.5rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0056b3;
+    border-color: var(--primary);
+    border: solid 2px var(--primary);
+    font-size: 1.5rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    font-family: "Poppins_Regular";
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    margin-top: 5rem;
+}
+.About_h1{
+    font-family: "Poppins_Bold";
+    font-size: 3.8rem;
+    color: var(--black2);
+
+}
+.About_h2{
+    font-family: "Poppins_Bold";
+    font-size: 2.8rem;
+    color: var(--black2);
+}
+.About_caption{
+    font-family: "Poppins_Regular";
+    font-size: 1.7rem;
+    color: var(--gray2);
+    max-width: 60rem;
+}
+.section_h2{
+    font-family: "Poppins_Bold";
+    font-size: 3.8rem;
+    margin-bottom: 1.3rem;
+    color: var(--black2);
+}
+.section_h1{
+    font-family: "Poppins_Regular";
+    font-size: 1.7rem;
+    margin-bottom: 1.3rem;
+    color: var(--black2);
+}
+.testimonials-section {
+    text-align: center;
+    margin-top: 4rem;
+  }
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    flex: 1;
+    max-width: 41rem;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 3.5rem;
+}
+
+.testimonial-text {
+    font-family: "Poppins_Regular";
+    font-size: 1.5rem;
+    color: var(--gray2);
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    font-family: "Poppins_Bold";
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+span{
+    font-family: "Poppins_Regular";
+    color: var(--gray1);
 }

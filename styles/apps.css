@@ -1,0 +1,55 @@
+:root{
+    --primary: #2563EB;
+    --shade1: #0474C9;
+    --shade2: #02497E;
+    --shade3: #0B1E46;
+    --shade4: #012B4B;
+    --Tint1: #CDE9FE;
+    --Tint2: #9BD3FD;
+    --Tint3: #69BDFD;
+    --Tint4: #36A7FC;
+    --Secondary: #EBAD25;
+    --shade-1: #E36404;
+    --shade-2: #B04E04;
+    --shade-3: #652C02;
+    --shade-4: #4C2101;
+    --Tint1: #FEE2CD;
+    --Tint2: #FEC59B;
+    --Tint3: #FDA969;
+    
+    /*state colors*/
+    --Tint4: #FD8C37;
+    --info: #2F80ED;
+    --success: #00966D;
+    --warning: #E2B93B;
+    --error_light: #C30000;
+
+    /*state colors*/
+    --primary: #FC6F05;
+    --primary: #0592FC;
+    --background: #F3F7FC;
+    --white: #FFFFFF;
+
+    /*Neutral color*/
+    --black1: #0C0C0C;
+    --black2: #1D1D1D;
+    --black3: #282828;
+    --gray1: #4F4F4F;
+    --gray2: #404040;
+    --gray3: #BDBDBD;
+    --gray4: #DFDFDF;
+    --gray5: #E0E0E0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "Poppins_Bold";
+    background-color: var(--black1);
+}
