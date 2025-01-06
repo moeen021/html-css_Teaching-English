@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary: #2563EB;
     --shade1: #0474C9;
     --shade2: #02497E;
@@ -16,7 +16,7 @@
     --Tint1: #FEE2CD;
     --Tint2: #FEC59B;
     --Tint3: #FDA969;
-    
+
     /*state colors*/
     --Tint4: #FD8C37;
     --info: #2F80ED;
@@ -40,16 +40,62 @@
     --gray4: #DFDFDF;
     --gray5: #E0E0E0;
 }
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-*,*::after,*::before {
+
+*,
+*::after,
+*::before {
     box-sizing: inherit;
 }
+
 body {
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: "Poppins_Bold";
-    background-color: var(--black1);
+    background-color: var(--white);
+}
+
+/* Nav Section */
+.container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.naw_wrapper {
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+}
+
+.menue_list {
+    display: flex;
+    gap: 3rem;
+}
+
+.menue_list-Courses {
+    color: #2563EB;
+}
+
+.nav_link {
+    display: flex;
+    gap: 1rem;
 }
